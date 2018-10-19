@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Josefin+Slab:300|Montserrat|Noto+Sans|Nunito:700|Playfair+Display|Quicksand:500|Raleway:800|Roboto+Condensed:700|Roboto+Slab:300|Roboto:900');
+
+html {
+  font-size: 1em;}
+
+section{min-height: 90px;}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;}
+
+p {  margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat:700', sans-serif;
+
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+#section01 h1{font-family: 'Roboto:900', sans-serif;}
+p {font-family: 'Josefin Slab', serif;color:rgb(255,255,225);}
+#section02 h1{font-family: 'Roboto Condensed', sans-serif;}
+p {font-family: 'Roboto Slab', serif;}
+  #section03 h1{font-family: 'Quicksand', sans-serif;}
+  p{font-family: 'Cabin', sans-serif;}
+  #section04 h1{font-family: 'Raleway', sans-serif;}
+  p{font-family: 'Playfair Display', serif;}
+  #section05 h1{font-family: 'Nunito', sans-serif;}
+  p{font-family: 'Noto Sans', sans-serif;}
