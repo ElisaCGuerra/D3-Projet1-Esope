@@ -32,12 +32,17 @@ header a {
 3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
 */
 .hero {
-  background : rgb(251, 236, 212) url('esope.jpg');
+  width: 100%;
+  height : 750px;
+  background: url('images/esope.jpg') no-repeat;
+  background-size: cover;
   color: rgb(36, 35, 94);
   min-height: 100vh;
-  background-size: cover;
   background-attachment: fixed;
+}
 
+.hero p{
+  color: rgb(36, 35, 94);
 }
 background{ color:rgb(251, 236, 212)}
 /* Sur les sections :
@@ -47,6 +52,9 @@ background{ color:rgb(251, 236, 212)}
 section {
   min-height: 90vh;
   padding: 42px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .odd {
@@ -62,12 +70,20 @@ section {
 .image-block {
   max-width: 640px;
   border: 12px solid rgb(36, 35, 94);
+
 }
+.illustration{
+  flex-basis: 480px;
+}
+
+.content {flex-basis: 480px.}
 
 .image-block img {
   width : 100%;
 display:block;
+
 }
+
 
 figcaption {
   font-family: 'Fahkwang', serif;
@@ -77,7 +93,7 @@ figcaption {
 
 footer {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
   padding: 12px;
   min-height: 600px;
   background: rgb(36, 35, 94);

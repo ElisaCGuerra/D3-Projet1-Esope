@@ -34,12 +34,38 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 
 #section01 h1{font-family: 'Roboto:900', sans-serif;}
-p {font-family: 'Josefin Slab', serif;color:rgb(255,255,225);}
+p {font-family: 'Josefin Slab', serif;color: rgb(251, 236, 212);
+}
+
 #section02 h1{font-family: 'Roboto Condensed', sans-serif;}
-p {font-family: 'Roboto Slab', serif;}
-  #section03 h1{font-family: 'Quicksand', sans-serif;}
-  p{font-family: 'Cabin', sans-serif;}
-  #section04 h1{font-family: 'Raleway', sans-serif;}
-  p{font-family: 'Playfair Display', serif;}
+
+#section02 p {font-family: 'Roboto Slab', serif;
+font-size: 0.3em;
+font-weight: 2;
+color: #000;
+}
+
+
+#section03 h1{font-family: 'Quicksand', sans-serif;}
+
+#section03 p{font-family: 'Cabin', sans-serif;
+font-size: 3em;
+font-weight: 2;
+text-align: center;
+color: rgb(251, 236, 212);
+}
+
+
+
+  #section04
+h1{font-family: 'Raleway', sans-serif;
+text-align: center;}
+
+  p{
+color: rgb(0, 0, 0);
+text-align: center;
+font-family: 'Playfair Display', serif;}
+
   #section05 h1{font-family: 'Nunito', sans-serif;}
-  p{font-family: 'Noto Sans', sans-serif;}
+  p{font-family: 'Noto Sans', sans-serif;
+color: rgb(251, 236, 212)}
