@@ -73,6 +73,7 @@ section {
 /* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
 
 .image-block {
+align-content: center;
   max-width: 640px;
   border: 12px solid rgb(36, 35, 94);
 }
@@ -89,7 +90,7 @@ display:block;
 }
 
 #section04
-p{color: rgb(251, 236, 212);}
+p{color: rgb(0, 0,0);}
 
 figcaption {
   font-family: 'Fahkwang', serif;
@@ -97,10 +98,9 @@ figcaption {
 
 }
 
-footer {
-  list-style-type: none;
+footer{list-style: none;
   text-align: center;
   padding: 12px;
   min-height: 600px;
   background: rgb(36, 35, 94);
-  color : #ffffff;
+  color : #ffffff;}
