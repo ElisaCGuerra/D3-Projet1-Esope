@@ -40,9 +40,14 @@ header a {
   min-height: 100vh;
   background-attachment: fixed;
 }
-
+.hero
+h1 {
+  padding: 30px;
+  text-align: left;}
 .hero p{
+  padding-left:30px;
   color: rgb(36, 35, 94);
+  text-align: left; max-width: 45%
 }
 background{ color:rgb(251, 236, 212)}
 /* Sur les sections :
@@ -70,7 +75,6 @@ section {
 .image-block {
   max-width: 640px;
   border: 12px solid rgb(36, 35, 94);
-
 }
 .illustration{
   flex-basis: 480px;
@@ -84,6 +88,8 @@ display:block;
 
 }
 
+#section04
+p{color: rgb(251, 236, 212);}
 
 figcaption {
   font-family: 'Fahkwang', serif;
